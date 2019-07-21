@@ -1,0 +1,367 @@
+body{
+    box-sizing: border-box ;
+    display: block;
+    padding:10px;
+    position:  absolute;
+    top: 150px;
+}
+    
+.eventformposition{
+position: fixed;
+top: 30%;
+right: 10%;
+}
+
+
+.pagecenter
+{
+    align-items:  center;
+}
+
+
+.right{ 
+    position:  fixed;
+    right: 12%;
+    top: 20%;
+}
+
+/* designing table data*/
+    
+.headertr{
+    display: inline-block;
+ width: 100%;
+}
+
+    .headertd{
+        display:inline;
+        background: none;
+        min-height: max-content;
+        padding-left: 8px;
+        padding-right: 8px;
+        min-width: max-content;
+        list-style: none;
+        position: fixed;
+        border: none;
+        
+    }
+    
+    /*to keep table data in center*/
+   
+    .headertable{
+        text-align: center;
+        top:100px;
+        left: 0;
+        align-content: center;
+        display: inline-table;  
+        background-color: yellowgreen;
+        padding: 5px;
+    }
+    
+    
+    /* for box design*/
+    .box{
+        height: max-content;
+        box-sizing: border-box;
+        width: 100%;
+        border:  black;
+        border-width: thick;
+        position: fixed;
+        box-shadow: 0px 8px 16px 0px sienna;
+    }
+    /* Dropdown Button */
+.dropbtn {
+    background-color: brown;
+    color: white;
+    padding: 5px;
+    font-size: smaller;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: gray;
+    border-radius: 100px;
+    
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: blueviolet;
+    border-radius: 100px;
+}
+
+
+/*no link in reference*/
+.nolink{
+    text-decoration: none;
+}
+
+.logo_img{
+    
+    display:  block;
+    max-height: 100px;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.header{
+    display:  block;
+    
+}
+
+
+.logo_name{
+    position: fixed;
+    color: white;
+    left: 41%;
+    right: 41%;
+    top: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.logo_name:hover{
+    color: gold;
+    
+}
+
+
+.footer{
+    color: red;
+    background: black;
+    bottom: 0;
+    left: 0;
+    max-height: max-content;
+    max-width: available;
+    text-align: center;
+    position: fixed;
+    font-size: 20px;
+    display: box;
+    box-shadow: 0px 0px 8px 5px sienna;
+    
+}
+
+
+
+.contents{
+    display: block;
+     top: 400px;
+}
+
+.form {
+   display: block;
+   height: max-content;
+   width: max-content;
+  top:30%;
+  left: 20%;
+  font-family: Trebuchet MS;
+  color: #0f040f;
+  font-size: 20px;
+  text-align: center;
+  position : initial;
+  text-decoration: none;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 5px 5px 5px #666666;
+  -moz-box-shadow: 5px 5px 5px #666666;
+  box-shadow: 5px 5px 5px #666666;
+  text-shadow: 2px 4px 2px #f7f7f7;
+  border: dotted #14060d 2px;
+  background: #cccccc;
+}
+.form:hover {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#b33ab3), to(#e63ae6));
+  background: -moz-linear-gradient(top, #b33ab3, #e63ae6) filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=undefined, endColorstr=undefined);
+
+}
+
+.textbox{
+    text-align: center;
+  display: block;
+  color: green;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #666666;
+  text-shadow: 2px 4px 2px #f7f7f7;
+  border: dotted #14060d 2px;
+  background: #cccccc;
+}
+
+.button{
+  display: block;
+  font-family: Trebuchet MS;
+  color: #0f040f;
+  font-size: 20px;
+  
+  padding: 5px;
+  text-decoration:  none;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 5px 5px 5px #666666;
+  -moz-box-shadow: 5px 5px 5px #666666;
+  box-shadow: 5px 5px 5px #666666;
+  text-shadow: 2px 4px 2px #f7f7f7;
+  border: dotted #14060d 2px;
+  background: #cccccc;
+}
+.button:hover{
+     background: -webkit-gradient(linear, 0 0, 0 100%, from(yellow), to(blue));
+     
+}
+
+
+.usershow{
+    display: box;
+    display: inline-block;
+    padding-left: 40px;
+    font-style: italic;
+    top :0px;
+    position: fixed;
+    color: white;
+}
+
+
+td{
+    background: whitesmoke;
+    color: black;
+    border-style: ridge;
+    border-color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1px;
+}
+
+.share-buttons{
+    right : 0px;
+    top: 50%;
+    position: fixed;
+    
+}
+
+
+.login_as{
+    right : 5%;
+    top: 0%;
+    position: fixed;
+    width: 40px;
+    height: 35px;
+    display: inline-block;
+    padding : 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: white;
+}
+
+.share-buttons img{
+    width: 40px;
+    height: 35px;
+    display: inline-block;
+    padding : 5px;
+    border-style: dashed;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.share-buttons img:hover{
+    border-radius: 100px;
+}
+
+.search-form-button {
+  font-family: Calibri;
+  color: #fffcff;
+  font-size: 12px;
+  padding: 5px;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: 4px 3px 3px #427d46;
+  -moz-box-shadow: 4px 3px 3px #427d46;
+  box-shadow: 4px 3px 3px #427d46;
+  text-shadow: 0px 3px 0px #0a090a;
+  border: solid #290ef5 1px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#30d196), to(#075fad));
+  background: -moz-linear-gradient(top, #30d196, #075fad);
+}
+.search-form-button:hover {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#4d0c4d), to(#f503f5));
+  background: -moz-linear-gradient(top, #4d0c4d, #f503f5)
+}
+.search-form-input{
+    padding: 5px;
+    text-align: center;
+}
+    
+
+
+.search-box{
+    position: fixed;
+    top: 100px;
+}
+
+
+.branchselect{
+    padding : 1px;
+    display: inline;
+}
+
+.inline{
+    display:  inline;
+}
+
+.floatinglinks{
+    top: 30%;
+    right : 0%;
+    border: #f503f5;
+    border-style:  double;
+    display: inline-block;
+    position: fixed;    
+    background-color: greenyellow;
+}
+
+.floatinglinks:hover{
+    top: 30%;
+    right : 0%;
+    border: #f503f5;
+    border-style:  double;
+    display: inline-block;
+    position: fixed;    
+    background-color: white;
+}
